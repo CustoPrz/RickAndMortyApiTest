@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'get_schwifty';
+    src: url('get_schwifty.ttf') format('truetype');
+  }
+body {
+    font-family: 'get_schwifty';
+    margin: 0;
+    padding: 20px;
+    background-image: url(Fondo.jpg);
+  }
+body h1{
+    font-size: 100px;
+    
+    color:aqua;
+    -webkit-text-stroke: 0.2px black;
+    text-shadow: 1 1 1 #c3ff00;
+
+}
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #characters {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .character {
+    border: 1px solid #000000;
+    padding: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,244,24,1) 0%, rgba(0,212,255,1) 100%);
+    box-shadow: 1 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .character img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .character h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .character p {
+    margin-bottom: 5px;
+  }
+  .rick-morty-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: aqua;
+    color: #000;
+    border: none;
+    border-radius: 15px;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .rick-morty-button:hover {
+    background-color: #ff0000;
+    color: #fff;
+  }
+ .rmb{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+ }
