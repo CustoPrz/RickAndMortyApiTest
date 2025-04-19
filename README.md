@@ -30,4 +30,4 @@ The project contains the following files:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/rick-and-morty-character-viewer.git
+   git clone https://github.com/CustoPrz/rick-and-morty-character-viewer.git
